@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YUCA LABS — Estratégia, Produto e Tecnologia</title>
+  <meta name="description" content="YUCA LABS cria produtos digitais, integrações, aplicativos e BI. Consultoria sênior, execução ágil e foco em resultado." />
+  <meta property="og:title" content="YUCA LABS — Estratégia, Produto e Tecnologia" />
+  <meta property="og:description" content="Produtos, Soluções, Consultoria, Integrações, Aplicativos e BI." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0B0B0B" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --brand:#00e0c7; --ink:#0b0b0b; }
+    .accent{ color:var(--brand); }
+    .badge{ border:1px solid rgb(0 0 0/.08); background:rgb(255 255 255/.7); backdrop-filter: blur(8px); }
+    .card{ border:1px solid rgb(0 0 0/.08); box-shadow:0 10px 30px rgba(0,0,0,.05); }
+    .soft-gradient{ background: radial-gradient(900px 500px at 0% 0%, rgba(0,224,199,.12), transparent 60%),
+                               radial-gradient(800px 500px at 100% 10%, rgba(0,224,199,.1), transparent 60%),
+                               linear-gradient(#fff,#fafafa); }
+    .logo-word{letter-spacing:.35rem}
+  </style>
+</head>
+<body class="soft-gradient text-zinc-800 antialiased">
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 bg-white/70 backdrop-blur border-b border-zinc-200">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="/assets/logo-yucalabs.jpg" class="h-8 w-auto rounded-sm" alt="YUCA LABS"/>
+        <span class="font-semibold tracking-[.35rem]">YUCA&nbsp;LABS</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm text-zinc-600">
+        <a href="#sobre" class="hover:text-black">Sobre</a>
+        <a href="#competencias" class="hover:text-black">Competências</a>
+        <a href="#showcase" class="hover:text-black">Showcase</a>
+        <a href="#contato" class="px-4 py-2 rounded-full border border-zinc-300 hover:bg-zinc-100">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative">
+    <div class="max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-12 gap-10 items-center">
+      <div class="md:col-span-6">
+        <div class="inline-flex items-center gap-2 badge rounded-full px-3 py-1 text-xs text-zinc-600">Consultoria sênior • Execução ágil • Métricas</div>
+        <h1 class="mt-4 text-4xl md:text-6xl font-semibold leading-tight text-black">Tecnologia e design para <span class="accent">resolver problemas reais</span>.</h1>
+        <p class="mt-6 text-lg text-zinc-700">Desenvolvemos <strong>produtos</strong> e <strong>soluções</strong> com foco em impacto: <strong>integrações</strong>, <strong>aplicativos</strong> e <strong>BI</strong>. Do discovery ao go‑live, com qualidade e velocidade.</p>
+        <div class="mt-8 flex gap-3">
+          <a href="#contato" class="px-6 py-3 rounded-full bg-black text-white hover:opacity-90">Iniciar um projeto</a>
+          <a href="#competencias" class="px-6 py-3 rounded-full border border-zinc-300 hover:bg-zinc-100">Ver competências</a>
+        </div>
+        <p class="mt-4 text-sm text-zinc-500">Atuação end‑to‑end • Cloud • Web • Mobile • Dados</p>
+      </div>
+      <div class="md:col-span-6">
+        <div class="card rounded-3xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1600&auto=format&fit=crop" alt="Equipe em colaboração" class="w-full h-[420px] object-cover"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="py-16 bg-white/60">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div class="md:col-span-1">
+        <h2 class="text-2xl font-semibold">Sobre a YUCA LABS</h2>
+        <p class="mt-2 text-zinc-600">Unimos estratégia, engenharia e design para construir software que faz diferença.</p>
+      </div>
+      <div class="md:col-span-2 grid sm:grid-cols-2 gap-6">
+        <div class="card rounded-2xl p-6">
+          <h3 class="font-semibold">Missão</h3>
+          <p class="mt-2 text-zinc-600">Transformar problemas complexos em experiências simples e escaláveis.</p>
+        </div>
+        <div class="card rounded-2xl p-6">
+          <h3 class="font-semibold">Como trabalhamos</h3>
+          <p class="mt-2 text-zinc-600">Discovery rápido, protótipos, ciclos curtos, métricas claras e evolução contínua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETÊNCIAS -->
+  <section id="competencias" class="py-18 py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold">Competências</h2>
+      <p class="mt-2 text-zinc-600">Produtos, Soluções, Consultoria, Integrações, Aplicativos e BI.</p>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <div class="card rounded-2xl p-6">
+          <h3 class="text-lg font-semibold">Produtos & Soluções</h3>
+          <p class="mt-2 text-zinc-600">Do conceito ao MVP: pesquisa, UX/UI e engenharia para lançar rápido.</p>
+        </div>
+        <div class="card rounded-2xl p-6">
+          <h3 class="text-lg font-semibold">Integrações & APIs</h3>
+          <p class="mt-2 text-zinc-600">Unificamos sistemas: ERPs, pagamentos, mensageria e automações.</p>
+        </div>
+        <div class="card rounded-2xl p-6">
+          <h3 class="text-lg font-semibold">Aplicativos & BI</h3>
+          <p class="mt-2 text-zinc-600">Web/Mobile performático e data‑driven com dashboards e KPIs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE -->
+  <section id="showcase" class="py-20 bg-white/60">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex items-end justify-between">
+        <h2 class="text-3xl font-semibold">Showcase</h2>
+        <a href="#contato" class="hidden md:inline-flex px-4 py-2 rounded-full border border-zinc-300 hover:bg-zinc-100">Fale conosco</a>
+      </div>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <article class="card rounded-2xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop" class="h-48 w-full object-cover" alt="Projeto 1"/>
+          <div class="p-6">
+            <h3 class="font-semibold">Orquestração de Integrações</h3>
+            <p class="mt-1 text-zinc-600">Camada unificada de APIs e eventos para operações escaláveis.</p>
+          </div>
+        </article>
+        <article class="card rounded-2xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop" class="h-48 w-full object-cover" alt="Projeto 2"/>
+          <div class="p-6">
+            <h3 class="font-semibold">Aplicativos Web & Mobile</h3>
+            <p class="mt-1 text-zinc-600">Experiências responsivas com UX e acessibilidade de ponta.</p>
+          </div>
+        </article>
+        <article class="card rounded-2xl overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop" class="h-48 w-full object-cover" alt="Projeto 3"/>
+          <div class="p-6">
+            <h3 class="font-semibold">BI & Automação</h3>
+            <p class="mt-1 text-zinc-600">Dashboards e rotinas que reduzem custo e aumentam velocidade.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA CONTATO -->
+  <section id="contato" class="py-20">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold">Vamos conversar?</h2>
+      <p class="mt-2 text-zinc-600">Envie um e‑mail e retornaremos rapidamente.</p>
+      <a href="mailto:contato@yucalabs.com.br" class="mt-6 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-black text-white hover:opacity-90">✉️ contato@yucalabs.com.br</a>
+      <p class="mt-4 text-xs text-zinc-500">Podemos conectar um formulário a Formspree, Resend ou sua API.</p>
+    </div>
+  </section>
+
+  <footer class="border-t border-zinc-200 bg-white">
+    <div class="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-zinc-600">
+      <div>© <span id="year"></span> YUCA LABS</div>
+      <div>Produtos · Soluções · Consultoria · Integrações · Aplicativos · BI</div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
