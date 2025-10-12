@@ -13,6 +13,8 @@
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
+    html{scroll-behavior:smooth}
+    .anchor{scroll-margin-top:96px}
     :root{ --brand:#00e0c7; --ink:#0b0b0b; }
     .accent{ color:var(--brand); }
     .badge{ border:1px solid rgb(0 0 0/.08); background:rgb(255 255 255/.7); backdrop-filter: blur(8px); }
@@ -20,17 +22,15 @@
     .soft-gradient{ background: radial-gradient(900px 500px at 0% 0%, rgba(0,224,199,.12), transparent 60%),
                                radial-gradient(800px 500px at 100% 10%, rgba(0,224,199,.1), transparent 60%),
                                linear-gradient(#fff,#fafafa); }
-    .logo-word{letter-spacing:.35rem}
   </style>
 </head>
 <body class="soft-gradient text-zinc-800 antialiased">
   <!-- NAV -->
   <header class="sticky top-0 z-40 bg-white/70 backdrop-blur border-b border-zinc-200">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <img src="/assets/logo-yucalabs.jpg" class="h-8 w-auto rounded-sm" alt="YUCA LABS"/>
-        <span class="font-semibold tracking-[.35rem]">YUCA&nbsp;LABS</span>
-      </div>
+      <a href="#" class="flex items-center gap-3">
+        <img src="/logo-yucalabs.jpg" class="h-8 w-auto" alt="YUCA LABS" />
+      </a>
       <nav class="hidden md:flex items-center gap-8 text-sm text-zinc-600">
         <a href="#sobre" class="hover:text-black">Sobre</a>
         <a href="#competencias" class="hover:text-black">Competências</a>
@@ -41,7 +41,7 @@
   </header>
 
   <!-- HERO -->
-  <section class="relative">
+  <section class="relative anchor">
     <div class="max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-12 gap-10 items-center">
       <div class="md:col-span-6">
         <div class="inline-flex items-center gap-2 badge rounded-full px-3 py-1 text-xs text-zinc-600">Consultoria sênior • Execução ágil • Métricas</div>
@@ -62,7 +62,7 @@
   </section>
 
   <!-- SOBRE -->
-  <section id="sobre" class="py-16 bg-white/60">
+  <section id="sobre" class="anchor py-16 bg-white/60">
     <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
       <div class="md:col-span-1">
         <h2 class="text-2xl font-semibold">Sobre a YUCA LABS</h2>
@@ -82,7 +82,7 @@
   </section>
 
   <!-- COMPETÊNCIAS -->
-  <section id="competencias" class="py-18 py-20">
+  <section id="competencias" class="anchor py-18 py-20">
     <div class="max-w-7xl mx-auto px-6">
       <h2 class="text-3xl font-semibold">Competências</h2>
       <p class="mt-2 text-zinc-600">Produtos, Soluções, Consultoria, Integrações, Aplicativos e BI.</p>
@@ -104,7 +104,7 @@
   </section>
 
   <!-- SHOWCASE -->
-  <section id="showcase" class="py-20 bg-white/60">
+  <section id="showcase" class="anchor py-20 bg-white/60">
     <div class="max-w-7xl mx-auto px-6">
       <div class="flex items-end justify-between">
         <h2 class="text-3xl font-semibold">Showcase</h2>
@@ -137,12 +137,11 @@
   </section>
 
   <!-- CTA CONTATO -->
-  <section id="contato" class="py-20">
+  <section id="contato" class="anchor py-20">
     <div class="max-w-3xl mx-auto px-6 text-center">
       <h2 class="text-3xl font-semibold">Vamos conversar?</h2>
       <p class="mt-2 text-zinc-600">Envie um e‑mail e retornaremos rapidamente.</p>
       <a href="mailto:contato@yucalabs.com.br" class="mt-6 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-black text-white hover:opacity-90">✉️ contato@yucalabs.com.br</a>
-      <p class="mt-4 text-xs text-zinc-500">Podemos conectar um formulário a Formspree, Resend ou sua API.</p>
     </div>
   </section>
 
