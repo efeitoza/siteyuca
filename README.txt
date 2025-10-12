@@ -1,16 +1,12 @@
-YUCA LABS — Landing Page (Opção B)
-
-Arquivos:
+YUCA LABS — Pacote completo (AI + Automação, texto Opção 2)
+Arquivos (raiz):
 - index.html
-- /assets/logo-yucalabs.jpg
+- logo-yucalabs.jpg
+- hero-yucalabs.jpg
+- app-web-mobile.jpg
+- bi-automacao.jpg
 
-Como publicar:
-1) Lovable
-   - Crie um site > página 'Custom HTML'
-   - Cole o conteúdo de index.html (ou suba os arquivos se preferir um hosting externo).
-2) Vercel
-   - Crie um novo projeto estático.
-   - Faça upload da pasta inteira (index.html + /assets).
-   - Aponte o domínio yucalabs.com.br para este projeto.
-
-Contato no site: contato@yucalabs.com.br
+Publicação (GitHub):
+1) No repositório efeitoza/siteyuca, clique em Add file > Upload files.
+2) Envie TODOS os arquivos acima (substitua os existentes).
+3) Commit changes. A Vercel fará o deploy automaticamente.
