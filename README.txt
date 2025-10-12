@@ -1,5 +1,5 @@
-YUCA LABS — Pacote completo (AI + Automação, texto Opção 2)
-Arquivos (raiz):
+YUCA LABS — Pacote completo (texto final com segmentos)
+Arquivos:
 - index.html
 - logo-yucalabs.jpg
 - hero-yucalabs.jpg
@@ -8,5 +8,5 @@ Arquivos (raiz):
 
 Publicação (GitHub):
 1) No repositório efeitoza/siteyuca, clique em Add file > Upload files.
-2) Envie TODOS os arquivos acima (substitua os existentes).
-3) Commit changes. A Vercel fará o deploy automaticamente.
+2) Envie TODOS os arquivos (substitua os existentes).
+3) Clique em Commit changes. A Vercel fará o deploy automático.
